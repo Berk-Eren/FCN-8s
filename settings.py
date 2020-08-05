@@ -1,6 +1,6 @@
 import os
 
-PATH = "</path_to_kitti_dataset>/data_semantics"
+PATH = "<path_to_kitti_dataset>/data_semantics"
 
 if not PATH:
     raise NameError("Please set the PATH in the {} file".format(os.getcwd() + "/settings.py"))
